@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>试戴功能</title>
+    <link href="css/jquery-ui.min.css" rel="stylesheet" type="text/css">
+    <link href="css/cropper.min.css" rel="stylesheet" type="text/css">
+    <link href="css/tryon.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<div id="m-tryon-block" class="m-tryon-block">
+    <div class="m-tryon-wrap">
+        <div class="m-tryon-left-side">左侧描述</div>
+        <div class="m-tryon-container">
+            <div class="m-tryon-close">关闭</div>
+            <div class="m-tryon-main">
+                <div class="m-tryon-upload-wrap">
+                    <div id="m-tryon-upload-area" class="m-tryon-upload-area">
+                        拖拽也可以
+                    </div>
+
+                    <div class="m-tryon-upload-btn">
+                        <input type="file" id="p-image" style="display: none;" accept=".jpg,.jpeg,.png,.gif,.bmp,.tiff">
+                        <button class="ui-button ui-widget ui-corner-all" id="select-image">选择照片</button>
+                        <button class="ui-button ui-widget ui-corner-all" id="continue">下一步</button>
+                        <button class="ui-button ui-widget ui-corner-all" id="rotate">旋转</button>
+                    </div>
+                </div>
+                <div class="m-tryon-descrption">
+                    右侧描述
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script type="application/javascript" src="js/jquery.js"></script>
+<script type="application/javascript" src="js/jquery-ui.min.js"></script>
+<script type="application/javascript" src="js/cropper.min.js"></script>
+<script type="application/javascript" src="js/tryon.js"></script>
+<script>
+    $(function () {
+        $("#m-tryon-block").draggable();
+    });
+</script>
+</body>
+</html>
