@@ -6,4 +6,4 @@
 2. 可以选择切图， 旋转
 
 ### 预览
-![](https://github.com/kk0501/no_upload_image/theme.png)
+![](https://github.com/kk0501/no_upload_image/blob/master/theme.png)
